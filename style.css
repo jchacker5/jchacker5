@@ -1,0 +1,54 @@
+body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -100;
+        }
+
+        .content {
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-30%, -30%);
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 3em;
+            margin: 0;
+        }   
+
+        .menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            list-style: none;
+        }
+
+        .menu li {
+            margin: 5px 0;
+            background: rgba(0, 0, 0, 0.5); /* semi-transparent background for readability */
+            padding: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu li:before {
+            font-family: "Font Awesome 5 Free"; /* FontAwesome font-family */
+            display: inline-block;
+            padding-right: 5px;
+            font-weight: 900; /* Solid style */
+            
+        }
+        .menu li i {
+            margin-right: 8px; /* Adjust the space between the icon and the text */
+}   
