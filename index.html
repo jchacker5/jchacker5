@@ -1,32 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="style.css">  
-    <title>Assignment 2</title>
-  </head>
-  <body>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Joseph Defendre - Home</title>
 
-    <video autoplay loop muted class="video-background">
-        <source src="background.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div class="content">
-        <h1>Joseph M Defendre</h1>
-        <p>Welcome to my home page.I am a senior at Bridgewater state university majoring in computer
-      science. My goal is to become a software engineer.</p>
-    </div>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="media/profile.png" />
 
-    <ul class="menu">
-        <li><i class="fas fa-smile"></i> About Me</li>
-        <li><a href="resume.pdf"><i class="fas fa-file-pdf"></i> Resume</a></li>
-        <li><i class="fas fa-suitcase"></i> Hobbies</li>
-        <li><a href="projects.html"><i class="fas fa-hammer"></i> Projects</a></li>
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="styles/global.css" />
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
 
-    </ul>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <figure class="logo">
+                <img src="media/profile.png" alt="Photo of Joseph Defendre" />
+                <figcaption>Joseph Defendre</figcaption>
+            </figure>
+            <button id="menu-toggle">Menu</button>
+            <ul id="primary-nav">
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="mailto:jchacker5@gmail.com" class="button-primary">Email me</a>
+                </li>
+            </ul>
+        </header>
+        <section id="fold">
+            <h1 class="title">I'm Joseph Defendre</h1>
+            <div>
+                <h2 class="secondary-title"><span class="bold">A senior at Bridgewater State University</span>, I specialize in computer networking, cloud architecture, and web development.</h2>
+                <a href="https://www.linkedin.com/in/joseph-defendre-659b86113/" target="_blank" class="button-primary">View LinkedIn</a>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="project">
+                <img src="https://www.russorizio.com/wp-content/uploads/2016/07/ef3-placeholder-image.jpg" />
+                <p class="bold">COMP390 Meteorite Filtering Program</p>
+                <p>This program allows you to filter a dataset of meteorite landings based on either the mass (in grams) or the year the meteorite fell. Users can specify the range for either mass or year (in YYYY format) to filter the meteorites. The program offers various options to view and save the filtered results.</p>
+            </div>
+            <div class="project">
+                <img src="https://www.russorizio.com/wp-content/uploads/2016/07/ef3-placeholder-image.jpg" />
+                <p class="bold">COMP350 myShell</p>
+                <p>This project aims to develop a simple UNIX shell (command interpreter) in Java. The shell supports various built-in commands, providing a simple yet effective interface for file and text manipulation.</p>
+            </div>
+            <div class="project">
+                <img src="https://www.russorizio.com/wp-content/uploads/2016/07/ef3-placeholder-image.jpg" />
+                <p class="bold">COMP355 Final Group Project Idea</p>
+                <p>I propose a full stack application that allows tract their gym workouts. This would be built on the MERN Stack. a user should be able to add, update and delete a gym workout.</p>
+            </div>
+            <div class="project">
+                <img src="https://www.russorizio.com/wp-content/uploads/2016/07/ef3-placeholder-image.jpg" />
+                <p class="bold">Project Name</p>
+                <p>A brief description of the project and what it's about</p>
+            </div>
+            <div class="project">
+                <img src="https://www.russorizio.com/wp-content/uploads/2016/07/ef3-placeholder-image.jpg" />
+                <p class="bold">Project Name</p>
+                <p>A brief description of the project and what it's about</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Joseph Defendre</p>
+        </footer>
 
-</body>
+        <script src="js/global.js"></script>
+    </body>
 </html>

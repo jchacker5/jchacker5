@@ -1,0 +1,161 @@
+:root {
+    --deep-blue: #010033;
+    --light-blue: #D7D6FF;
+    --background-color: #F4F4F4;
+
+    --color-dark: #212121;
+    --color-medium: #8E8E8E;
+
+    --page-inline-margin: 15vw;
+}
+
+@media (max-width: 550px) {
+    :root {
+        --page-inline-margin: 2rem;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    font: 400 16px/1.5 'Inter', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--color-dark);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    margin: 0;
+    font: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    color: inherit;
+}
+
+/**
+ * Common Classes
+ */
+
+.placeholder-img {
+    background-color: #eee;
+}
+
+.title {
+    font-size: 6rem;
+    font-size: clamp(3.5rem, 4vw + 1vh + 16px, 6rem);
+    line-height: 1.05;
+}
+
+.secondary-title {
+    font-size: 2rem;
+    font-size: clamp(1.5rem, 1.5vw + 10px, 2rem);
+    line-height: 1.25;
+}
+
+.button-primary {
+    background-color: var(--light-blue);
+    color: var(--color-dark);
+    padding: 9px 30px;
+    border-radius: 12px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/**
+ * Header
+ */
+
+@media (min-width: 850px) {
+    #menu-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    #primary-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem var(--page-inline-margin);
+        background: #fff;
+        color: var(--color-dark);
+        box-shadow: 0 0 90px rgba(0,0,0,.1);
+    }
+}
+
+.show-nav {
+    display: flex !important;
+}
+
+header {
+    background-color: var(--deep-blue);
+    color: #fff;
+    padding: 15px var(--page-inline-margin);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 25px 40px;
+}
+
+/**
+ * Logo
+ */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.logo img {
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+}
+
+.logo figcaption {
+    font-size: 1.15rem;
+}
+
+/**
+ * Footer
+ */
+
+footer {
+    /* background-color: #dfdfdf; */
+    margin-top: 13vh;
+    padding: 25px var(--page-inline-margin);
+}
