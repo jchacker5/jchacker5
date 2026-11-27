@@ -13,4 +13,4 @@ Full Stack Software Engineer based in Boston, MA · MS AI @ Northeastern · ex-S
 
 **Stack:** C++ / Qt · Python · TypeScript · Kotlin
 
-**Links:** [ValorAI](https://www.TryValor.ai/) · [X (@Joedefendre)](https://x.com/Joedefendre) · [Portfolio](https://jchacker5.github.io)
+**Links:** [ValorAI](https://www.TryValor.ai/) · [X (@Joedefendre)](https://x.com/Joedefendre)
