@@ -1,16 +1,11 @@
-### Hi, I'm Joseph Defendre
+# Joseph Defendre
 
-Full Stack Software Engineer based in Boston, MA · MS AI @ Northeastern · ex-SpaceX, ex-Whoop · Founder @ [ValorAI](https://www.TryValor.ai/)
+I build AI applications and real-time systems. I’m the founder of [ValorAI](https://www.TryValor.ai/), pursuing an M.S. in AI at Northeastern, and based in Boston. Previously at SpaceX and WHOOP.
 
-**Currently building**
-- [open-tesla-reality-view](https://github.com/jchacker5/open-tesla-reality-view) — Turn Tesla dashcam footage into a 3D Gaussian-splat replay you can fly through
-- [reality-view-native](https://github.com/jchacker5/reality-view-native) — Native C++20 / Qt 6 real-time vehicle visualization with a lock-free telemetry pipeline
-- [MORPH](https://github.com/jchacker5/MORPH) — Research on how neural networks allocate computation
-- [inkling-autoresearch](https://github.com/jchacker5/inkling-autoresearch) — Autoresearch and agent swarms for compact looped (recurrent-depth) transformers on Apple Silicon (MLX)
+## Selected projects
 
-**Earlier projects**
-- [GameboyEmulator](https://github.com/jchacker5/GameboyEmulator) — Game Boy emulator in C++17 / Qt 6 (Z80 CPU execution & background tile renderer; Computer Architecture course project)
+- **[Open Tesla Reality View](https://github.com/jchacker5/open-tesla-reality-view)** · Turn Tesla dashcam footage into a 3D Gaussian-splat replay you can fly through. The demo shows a real 20-second drive reconstructed from four dashcams on Apple silicon. [Watch the demo](https://github.com/jchacker5/open-tesla-reality-view/blob/main/docs/media/hero.gif)
+- **[Reality View Native](https://github.com/jchacker5/reality-view-native)** · Built a real-time vehicle visualization in C++20 and Qt 6 with a lock-free pipeline for simulated telemetry.
+- **[MORPH](https://github.com/jchacker5/MORPH)** · Tested when neural networks benefit from learning how to allocate computation at matched cost. Published experimental protocols, per-seed results, and a replication package.
 
-**Stack:** C++ / Qt · Python · TypeScript · Kotlin
-
-**Links:** [ValorAI](https://www.TryValor.ai/) · [X (@Joedefendre)](https://x.com/Joedefendre)
+[LinkedIn](https://www.linkedin.com/in/joseph-defendre-659b86113/) · [X (@Joedefendre)](https://x.com/Joedefendre)
